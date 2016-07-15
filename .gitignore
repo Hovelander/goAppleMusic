@@ -24,6 +24,7 @@
 *.DS_Store
 
 # Xcode
+*.framework
 *.pbxuser
 *.mode1v3
 *.mode2v3
