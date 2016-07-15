@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT
 // license that can be found in the LICENSE file.
 
-// Package AppleMusic is a trivial package for gomobile AppleMusic bind example.
+// Package AppleMusic is a (so far) trivial package for gomobile AppleMusic bind example.
 package AppleMusic
 
 import "fmt"
