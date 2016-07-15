@@ -1,0 +1,7 @@
+framework module "Hello" {
+    header "GoHello.h"
+    header "GoUniverse.h"
+    header "Hello.h"
+
+    export *
+}

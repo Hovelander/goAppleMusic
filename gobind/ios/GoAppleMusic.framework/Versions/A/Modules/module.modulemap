@@ -1,0 +1,7 @@
+framework module "GoAppleMusic" {
+    header "GoGoAppleMusic.h"
+    header "GoUniverse.h"
+    header "GoAppleMusic.h"
+
+    export *
+}

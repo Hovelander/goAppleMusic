@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D49FDB41D3965A00044B412 /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 3D49FDB31D3965A00044B412 /* ios */; };
+		3D788FDB1D39822600DD0FA3 /* GoAppleMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D788FDA1D39822600DD0FA3 /* GoAppleMusic.framework */; };
+		EBA3E2861B681AFA00018449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E2851B681AFA00018449 /* main.m */; };
+		EBA3E2891B681AFA00018449 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E2881B681AFA00018449 /* AppDelegate.m */; };
+		EBA3E28C1B681AFA00018449 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E28B1B681AFA00018449 /* ViewController.m */; };
+		EBA3E28F1B681AFA00018449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA3E28D1B681AFA00018449 /* Main.storyboard */; };
+		EBA3E2941B681AFA00018449 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA3E2921B681AFA00018449 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D49FDB31D3965A00044B412 /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; sourceTree = "<group>"; };
+		3D788FDA1D39822600DD0FA3 /* GoAppleMusic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoAppleMusic.framework; sourceTree = "<group>"; };
 		EBA3E2801B681AFA00018449 /* goAppleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goAppleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA3E2841B681AFA00018449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA3E2851B681AFA00018449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBA3E2871B681AFA00018449 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBA3E2881B681AFA00018449 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBA3E28A1B681AFA00018449 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBA3E28B1B681AFA00018449 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBA3E28E1B681AFA00018449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBA3E2931B681AFA00018449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D788FDB1D39822600DD0FA3 /* GoAppleMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +43,9 @@
 		EBA3E2771B681AFA00018449 = {
 			isa = PBXGroup;
 			children = (
-				3D49FDB31D3965A00044B412 /* ios */,
+				EBA3E2821B681AFA00018449 /* ios */,
 				EBA3E2811B681AFA00018449 /* Products */,
+				3D788FDA1D39822600DD0FA3 /* GoAppleMusic.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -40,6 +55,30 @@
 				EBA3E2801B681AFA00018449 /* goAppleMusic.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA3E2821B681AFA00018449 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3E2871B681AFA00018449 /* AppDelegate.h */,
+				EBA3E2881B681AFA00018449 /* AppDelegate.m */,
+				EBA3E28A1B681AFA00018449 /* ViewController.h */,
+				EBA3E28B1B681AFA00018449 /* ViewController.m */,
+				EBA3E28D1B681AFA00018449 /* Main.storyboard */,
+				EBA3E2921B681AFA00018449 /* LaunchScreen.xib */,
+				EBA3E2831B681AFA00018449 /* Supporting Files */,
+			);
+			name = ios;
+			path = bind;
+			sourceTree = "<group>";
+		};
+		EBA3E2831B681AFA00018449 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3E2841B681AFA00018449 /* Info.plist */,
+				EBA3E2851B681AFA00018449 /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D49FDB41D3965A00044B412 /* ios in Resources */,
+				EBA3E28F1B681AFA00018449 /* Main.storyboard in Resources */,
+				EBA3E2941B681AFA00018449 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,10 +150,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA3E28C1B681AFA00018449 /* ViewController.m in Sources */,
+				EBA3E2891B681AFA00018449 /* AppDelegate.m in Sources */,
+				EBA3E2861B681AFA00018449 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBA3E28D1B681AFA00018449 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA3E28E1B681AFA00018449 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBA3E2921B681AFA00018449 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA3E2931B681AFA00018449 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EBA3E2A11B681AFB00018449 /* Debug */ = {
@@ -136,6 +198,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -180,6 +243,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -202,10 +266,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = bind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.goAppleMusic;
 				PRODUCT_NAME = goAppleMusic;
 			};
 			name = Debug;
@@ -214,10 +280,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = bind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.goAppleMusic;
 				PRODUCT_NAME = goAppleMusic;
 			};
 			name = Release;
